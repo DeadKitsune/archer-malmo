@@ -1,0 +1,78 @@
+h1{
+	font-size:75px;
+	text-align:center;
+	font-family: 'Gamja Flower', cursive;
+	background-color:cyan;
+}
+body{
+	background-color:#8B80F9;
+	font-family: 'Gamja Flower', cursive;
+}
+h2{
+	font-size:45px;
+	text-align:center;
+	font-family: 'Gamja Flower', cursive;
+}
+p{
+	font-size:25px;
+	text-align:center;
+	font-family: 'Gamja Flower', cursive;
+}
+a{
+	font-size:15px; 
+}
+.image1, .image2, .image3, .image4, .image5{
+	padding: 10px 5px 10px 5px;
+}
+
+.owl-carousel > div {
+	position: relative;
+}
+
+.banner-text {
+	position: absolute!important;
+    z-index: 999;
+    background-color: white;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  height:100px;
+}
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 600px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  left:260px;
+  top:10px;
+  font-size:18px;
+
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+#cookout{
+	width:250px;
+	height:250px;
+}
+
+
